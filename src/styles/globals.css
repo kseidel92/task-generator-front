@@ -1,0 +1,26 @@
+/* src/styles/globals.css */
+
+/* O MUI lida com a maioria dos estilos de reset e tema. */
+/* Mantendo apenas o reset básico e a importação do Tailwind, se estiver sendo usado. */
+
+
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* O MUI ThemeProvider e CssBaseline cuidarão do resto */
