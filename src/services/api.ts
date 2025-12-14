@@ -9,7 +9,7 @@ export const apiService = {
    * URL: http://localhost:3000/lists
    */
   createList: async (payload: CreateListPayload): Promise<TodoList> => {
-    const response = await fetch(`${BASE_URL}/listsa`, {
+    const response = await fetch(`${BASE_URL}/lists`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
